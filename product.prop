@@ -1,3 +1,6 @@
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # Set the Bluetooth Class of Device
 # Service Field: 0x5A -> 90
 #    Bit 17: Networking
