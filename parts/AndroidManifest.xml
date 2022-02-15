@@ -124,6 +124,15 @@
         </activity>
 
         <activity
+            android:name=".TileEntryActivity"
+            android:label="@string/device_settings_app_name"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".refreshrate.RefreshActivity" 
             android:label="@string/refresh_title" 
             android:exported="false"
