@@ -56,3 +56,7 @@ genfscon sysfs /devices/platform/soc/soc:qcom,smp2p-cdsp/wakeup                 
 
 # Power
 genfscon proc /sys/kernel/sched_energy_aware u:object_r:proc_sched_energy_aware:s0
+
+# Kprofile
+genfscon sysfs /module/kprofiles/parameters/auto_kprofiles u:object_r:sysfs_kprofiles:s0
+genfscon sysfs /module/kprofiles/parameters/mode u:object_r:sysfs_kprofiles:s0
