@@ -36,5 +36,8 @@ bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 bluetooth.profile.asha.central.enabled?=true
 
+# Incremental FS
+ro.incremental.enable=yes
+
 # Shutdown
 ro.build.shutdown_timeout=2
